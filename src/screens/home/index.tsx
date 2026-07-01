@@ -1,13 +1,21 @@
 import { Tabs } from "../../components/tabs"
 
-const Home = () : React.ReactElement => {
+const Home = (): React.ReactElement => {
+  return (
+    <div className="container">
 
-  return(
-      <div className="container">
-        <div className="row">
-          <Tabs />
-        </div>
-      </div> 
+      <h2>Integrantes</h2>
+      <ul>
+        <li>Jeromaha Romero</li>
+        <li>Matias Romero</li>
+        <li>Landeo Gianmarco</li>
+      </ul>
+
+      <div className="row">
+        <Tabs />
+      </div>
+    </div>
   )
 }
+
 export { Home }
