@@ -6,7 +6,6 @@ const Home = (): React.ReactElement => {
 
       <h2>Integrantes</h2>
       <ul>
-        <li>Jeromaha Romero</li>
         <li>Matias Romero</li>
         <li>Landeo Gianmarco</li>
       </ul>
